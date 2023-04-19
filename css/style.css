@@ -107,7 +107,7 @@
         /* background-color: green; COR PRA AJUDAR NA VISUALIZAÇÃO; */
         position: absolute;
         top: 0;
-        right: 0;
+        right: 32px;
     }
 
     /* BODY */
@@ -132,9 +132,11 @@
         height: 402px;
         display: inline-block;
         /* background-color: grey; COR PRA AJUDAR NA VISUALIZAÇÃO; */
-        margin: 103px 0 0 32px;
+        /* margin: 103px 0 0 32px; */
         align-items: center;
         position: relative;
+        left: 32px;
+        bottom: 103px;
     }
 
     .content-body-txt{
@@ -164,7 +166,155 @@
     .img-google-play {
         position: absolute;
         right: 0;
-    }    
+    }  
+
+    /* BODY CARDS */
+    
+    .content-body-cards {
+        width: 605px;
+        height: 100%;
+        display: inline-block;
+        /* background-color: grey; COR PRA AJUDAR NA VISUALIZAÇÃO; */
+        align-items: center;
+        position: relative;
+        left: 60px;
+    }
+
+    .body-cards-visa {
+        width: 343px;
+        height: 80px;
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        right: 31px;
+        border-radius: 20px;
+    }
+
+    .body-cards-visa img {
+        padding-top: 31px;
+        padding-left: 20px;
+    }
+
+    .visa-check {
+        position: absolute;
+        left: 143px;
+        top: 40px;
+    }
+
+    .body-cards-visa p {
+        font-family: Satoshi;
+        color: #797b89;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        position: absolute;
+        left: 65px;
+        top: 43px;
+    }
+
+    .card-visa-visa {
+        font-family: Satoshi;
+        color: #1b1c20;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 700;
+        position: absolute;
+        top: 17px;
+        left: 65px;
+    }
+
+    .card-visa-num {
+        font-family: Satoshi;
+        color: #1b1c20;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    .card-big {
+        width: 547px;
+        height: 334px;
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        top: 168px;
+        border-radius: 16px;
+    }
+
+    .card-big-content {
+        position: absolute;
+        top: 13.6px;
+        left: 267.25px;
+    }
+
+    .card-big-logo {
+        position: absolute;
+        left: 63px;
+        bottom: 42px;
+    }
+
+    .card-big p {
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-family: Satoshi;
+        color: #a0aec0;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 500;
+        position: absolute;
+        left: 89.8px;
+        top: 232px;
+    }
+
+    .card-120 {
+        width: 194.6px;
+        height: 106px;
+        display: block;
+        background-color: #ebbcad;
+        position: absolute;
+        bottom: 0;
+        left: 90px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .card-120 h2 {
+        font-family: Satoshi;
+        color: #000;
+        font-size: 40px;
+        line-height: 54px;
+        font-weight: 700;
+        padding-top: 34px;
+        padding-left: 50px;
+    }  
+    
+    .card-120 img {
+        position: absolute;
+        bottom: 52px;
+        left: 57px;
+    }
+
+    .card-pink-card {
+        width: 313.3px;
+        height: 203px;
+        position: absolute;
+        left: 0;
+        top: 101.5px;
+    }
+
+    .card-pink-card-card {
+        position: absolute;
+        top: -10px;
+        left: -141px;
+    }
+
+    .card-pink-card-check {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -304,7 +454,7 @@
 }
 .txt-big {
     font-family: 'satoshi', sans-serif;
-    font-size: 16px;
+    font-size: 40px;
     line-height: 24px;
     font-weight: 700;
 }
