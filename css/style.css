@@ -315,7 +315,7 @@
         right: 0;
     }
 
-    /* SOCIAL SECTIONS */
+    /* SOCIAL SECTION */
 
     .container-social {
         width: 1280px;
@@ -347,6 +347,93 @@
     .content-social img{
         cursor: pointer;
     }
+
+    /* FEATURES SECTION */
+
+    .features-main {
+        width: 1280px;
+        height: 770.3px;
+        /* background-color: grey; COR PRA AJUUDAR NA VISUALIZACAO; */
+        display: block;
+        position: relative;
+        top: 96px;
+        margin: 0 auto;
+    }
+
+    .features-main-title {
+        font-family: Satoshi;
+        font-size: 43px;
+        font-weight: 500;
+        line-height: 58px;
+        text-align: center;
+        /* background-color: #5de970; COR PRA AJUDAR NA VISUALIZACAO; */
+    }
+
+    .features-main-box-container-flex {
+        width: 844.16px;
+        height: 660.3px;
+        /* background-color: #ff0000; COR PRA AJUDAR NA VISUALIZACAO; */
+        position: relative;
+        left: 0;
+        top: 52px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .features-box {
+        width: 408.05px;
+        height: 316.3px;
+        background-color: #1b1c20;
+        display: block;
+        border-radius: 23.84px;
+    }
+
+    .features-img-1{
+        position: absolute;
+        bottom: 364px;
+        left: 152.87px;
+    }
+
+    .features-img-2{
+        position: absolute;
+        top: 101.94px;
+        right: 151.8px;
+    }
+
+    .features-img-3{
+        position: absolute;
+        bottom: 140px;
+        left: 165px;
+    }
+
+    .features-img-4{
+        position: absolute;
+        bottom: 137.12px;
+        right: 116.54px;
+    }
+
+    .features-main-box-right {
+        width: 408.03px;
+        height: 660.3px;
+        display: block;
+        background-color: #1b1c20;
+        position: absolute;
+        top: 110px;
+        right: 0;
+        border-radius: 23.84px;
+    }
+
+    .features-main-box-right p{
+        padding-top: 21.85px;
+    }
+
+    .features-main-box-right img{
+        margin-top: 85.42px;
+        margin-left: 54.02px;
+    }
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -360,6 +447,10 @@
     margin-top: 96px;
     /* background-color: red; COR PARA AJUDAR NA VISUALIZACAO; */
     position: relative;
+}
+
+#first-section {
+    height: 888px;
 }
 
 /* BOTOES */
@@ -503,4 +594,52 @@
     font-size: 43px;
     line-height: 58.05px;
     font-weight: 700;
+}
+
+.txt-feature-title {
+    font-family: 'Satoshi';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding-top: 39.73px;
+}
+
+.txt-feature-title-2 {
+    font-family: 'Satoshi';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33.5px;
+    text-align: center;
+    padding-top: 39.73px;
+}
+
+.txt-feature-text {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.txt-feature-text-2 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* PADDING */
+
+.padding-top-21 {
+    padding-top: 21.29px;
+}
+
+.padding-top-121 {
+    padding-top: 121.17px;
+}
+
+.padding-top-123 {
+    padding-top: 123.73px;
 }
