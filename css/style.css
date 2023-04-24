@@ -30,6 +30,8 @@
     --btn-log-in: #6941c6;
     --last-container: #1b1c20;
     --black-white: #000;
+    --boxes-mobile: #1d1e22;
+    --last-container-mobile: #1d1e22;
 }
 
 .light-mode:root {
@@ -56,6 +58,8 @@
     --btn-log-in: #712fff;
     --last-container: #faf8f5;
     --black-white: #b4b4b4;
+    --boxes-mobile: #fff;
+    --last-container-mobile: #faf8f5;
 }
 
 
@@ -446,7 +450,7 @@
     #features-section {
         display: block;
         background-color: var(--page-backround-2);
-        height: 2088px;
+        height: 2120px;
     }
 
     .features-main {
@@ -473,7 +477,7 @@
     .features-box {
         width: 100%;
         height: 316.3px;
-        background-color: var(--dark-grey);
+        background-color: var(--boxes-mobile);
         display: block;
         position: relative;
         border-radius: 23.84px;
@@ -509,11 +513,12 @@
         width: 335px;
         height: 574.72px;
         display: block;
-        background-color: var(--dark-grey);
+        background-color: var(--boxes-mobile);
         position: relative;
         top: 0;
         right: 0;
         border-radius: 23.84px;
+        margin-bottom: 32px;
         box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
     }
 
@@ -523,18 +528,81 @@
     }
 
 
+    /* LAST SECTION */
 
+
+    #last-section {
+        background-color: var(--page-backround-2);
+        display: block;
+        height: 1187px;
+    }
+
+    .last-cards {
+        display: none;
+    }
+
+
+    .last-container {
+        width: 335px;
+        height: 802px;
+        background-color: var(--last-container-mobile);
+        display: block;
+        position: relative;
+        top: 32px;
+        margin: 0 auto;
+        border-radius: 25.6px;
+    }
+
+    .last-content {
+        width: 295px;
+        height: 350px;
+        /* background-color: red; COR PRA AJUDAR NA VISUALIZAÇÃO; */
+        position: absolute;
+        left: 20px;
+        right: 20px;
+        top: 50px;
+    }
+
+    .last-content h2 {
+        padding-bottom: 24px;
+    }
+
+    .last-txt-title {
+        font-family: Satoshi;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: var(--last-title);
+    }
+
+    .last-txt {
+        color: var(--txt-partners);
+    }
+
+    .btn-last {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 28px;
+        display: block;
+        padding-top: 15.5px;
+        padding-left: 28px;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+    }
+
+    .last-cards-mobile {
+        position: absolute;
+        bottom: 0;
+    }
 
 
 
 
     .footer {
         display: none;
-    }
-
-    #last-section {
-        display: none;
-        height: 1219px;
     }
 }
 
@@ -1011,6 +1079,14 @@
         border-radius: 25.6px;
     }
 
+    .last-cards {
+        display: block;
+    }
+
+    .last-cards-mobile {
+        display: none;
+    }
+
     .last-content {
         width: 478px;
         height: 438px;
@@ -1020,10 +1096,16 @@
         top: 108.79px;
     }
 
-    .last-content h2 {
-        color: var(--last-title);
-        padding-bottom: 24px;
+    .last-txt-title {
+        font-size: 43px;
+        line-height: 58.05px;
+        padding-right: 20px;
     }
+
+    .last-txt {
+        color: var(--grey-copyright);
+    }
+
 
     /* FOOTER */
 
@@ -1153,7 +1235,7 @@
 .btn-last {
     width: 163.2px;
     height: 56px;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left: 0;
     border-radius: 28px;
@@ -1161,7 +1243,7 @@
     padding-top: 15.5px;
     padding-left: 28px;
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out; */
 }
 
 .btn-last img:last-child {
