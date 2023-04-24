@@ -94,8 +94,9 @@
 
 @media screen and (min-width: 350px) {
 
+
     #first-section {
-        height: 1111px;
+        height: 1007.47px;
         background-color: var(--page-backround);
     }
     
@@ -388,6 +389,8 @@
         display: none;
     }
 
+    /* SOCIAL SECTION */
+
     .social-proof-section {
         width: 335px;
         height: 112px;
@@ -438,6 +441,90 @@
 
 
 
+    /* FEATURES SECTION */
+
+    #features-section {
+        display: block;
+        background-color: var(--page-backround-2);
+        height: 2088px;
+    }
+
+    .features-main {
+        width: 335px;
+        height: 2035.68px;
+        /* background-color: grey; COR PRA AJUUDAR NA VISUALIZACAO; */
+        display: block;
+        position: relative;
+        top: 50px;
+        margin: 0 auto;
+    }
+
+    .features-main-title {
+        font-family: Satoshi;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32.4px;
+        text-align: center;
+        letter-spacing: -1.8240000009536743px;
+        margin-bottom: 52px;
+        /* background-color: #5de970; COR PRA AJUDAR NA VISUALIZACAO; */
+    }
+
+    .features-box {
+        width: 100%;
+        height: 316.3px;
+        background-color: var(--dark-grey);
+        display: block;
+        position: relative;
+        border-radius: 23.84px;
+        margin-bottom: 28.3px;
+        box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
+    }
+
+    .features-img-1{
+        position: absolute;
+        bottom: 20px;
+        left: 116.34px;
+    }
+
+    .features-img-2{
+        position: absolute;
+        top: 101.54px;
+        right: 115.88px;
+    }
+
+    .features-img-3{
+        position: absolute;
+        bottom: 140px;
+        left: 128.28px;   
+    }
+
+    .features-img-4{
+        position: absolute;
+        bottom: 137.12px;
+        right: 80.59px;
+    }
+
+    .features-main-box-right {
+        width: 335px;
+        height: 574.72px;
+        display: block;
+        background-color: var(--dark-grey);
+        position: relative;
+        top: 0;
+        right: 0;
+        border-radius: 23.84px;
+        box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
+    }
+
+    .features-main-box-right img{
+        margin-top: 85.42px;
+        margin-left: 17.5px;
+    }
+
+
+
+
 
 
 
@@ -445,12 +532,9 @@
         display: none;
     }
 
-    #features-section {
-        display: block;
-    }
-
     #last-section {
         display: none;
+        height: 1219px;
     }
 }
 
@@ -514,9 +598,11 @@
         display: block;
     }
 
-    .menu-mobile-black {
+    .light-mode .menu-mobile-black {
         display: none;
     }
+
+    /* .light-mode .menu-mobile-black */
 
     .menu-mobile {
         display: none;
@@ -844,24 +930,21 @@
         cursor: pointer;
     }
 
+
     /* FEATURES SECTION */
+
 
     .features-main {
         width: 1280px;
         height: 770.3px;
         /* background-color: grey; COR PRA AJUUDAR NA VISUALIZACAO; */
-        display: block;
-        position: relative;
         top: 96px;
-        margin: 0 auto;
     }
 
     .features-main-title {
-        font-family: Satoshi;
-        font-size: 43px;
-        font-weight: 500;
-        line-height: 58px;
-        text-align: center;
+        font-size: 43px; 
+        line-height: 58.05px;
+        margin-bottom: 0;
         /* background-color: #5de970; COR PRA AJUDAR NA VISUALIZACAO; */
     }
 
@@ -881,47 +964,30 @@
 
     .features-box {
         width: 408.05px;
-        height: 316.3px;
-        background-color: var(--dark-grey);
-        display: block;
-        border-radius: 23.84px;
-        box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
+        margin-bottom: 0;
     }
 
     .features-img-1{
-        position: absolute;
-        bottom: 364px;
         left: 152.87px;
     }
 
     .features-img-2{
-        position: absolute;
-        top: 101.94px;
         right: 151.8px;
     }
 
     .features-img-3{
-        position: absolute;
-        bottom: 140px;
         left: 165px;
     }
 
     .features-img-4{
-        position: absolute;
-        bottom: 137.12px;
         right: 116.54px;
     }
 
     .features-main-box-right {
         width: 408.03px;
         height: 660.3px;
-        display: block;
-        background-color: var(--dark-grey);
         position: absolute;
         top: 110px;
-        right: 0;
-        border-radius: 23.84px;
-        box-shadow: 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01), 0px 99.3206px 174.804px rgba(68, 55, 0, 0.02), 0px 45.6875px 80.4497px rgba(68, 55, 0, 0.01), 0px 25.8233px 45.6875px rgba(68, 55, 0, 0.01), 0px 15.8913px 27.8098px rgba(68, 55, 0, 0.01), 0px 8.93885px 16.8845px rgba(68, 55, 0, 0.01), 0px 5.95923px 8.93885px rgba(68, 55, 0, 0.01), 0px 1.98641px 3.97282px rgba(68, 55, 0, 0.01);
     }
 
     .features-main-box-right p{
@@ -929,7 +995,6 @@
     }
 
     .features-main-box-right img{
-        margin-top: 85.42px;
         margin-left: 54.02px;
     }
 
@@ -1009,7 +1074,6 @@
 
     #features-section {
         height: 962px;
-        background-color: var(--page-backround-2);
         display: block;
     }
     
