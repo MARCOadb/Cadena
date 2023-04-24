@@ -7,8 +7,8 @@
 }
 
 :root {
-    --page-backround: #060809;
-    --page-backround-2: #060809;
+    --page-background: #060809;
+    --page-background-2: #060809;
     --default-purple: #712fff;
     --purple-light: #6941c6;
     --purple-light-2: #7f56d9;
@@ -17,7 +17,6 @@
     --white-3: #f2f4f5;
     --dark-grey: #1b1c20;
     --grey-btn: #383A47;
-    --visa-grey-text: #797b89;
     --card-big: #a0aec0;
     --pink: #ebbcad;
     --black: #000;
@@ -32,11 +31,12 @@
     --black-white: #000;
     --boxes-mobile: #1d1e22;
     --last-container-mobile: #1d1e22;
+    --footer-mobile: #0c0b0d;
 }
 
 .light-mode:root {
-    --page-backround: #faf8f5;
-    --page-backround-2: #fff;
+    --page-background: #faf8f5;
+    --page-background-2: #fff;
     --default-purple: #712fff;
     --purple-light: #6941c6;
     --purple-light-2: #fff;
@@ -45,7 +45,6 @@
     --white-3: #f2f4f5;
     --dark-grey: #fff;
     --grey-btn: #fff;
-    --visa-grey-text: #797b89;
     --card-big: #a0aec0;
     --pink: #ebbcad;
     --black: #000;
@@ -60,6 +59,7 @@
     --black-white: #b4b4b4;
     --boxes-mobile: #fff;
     --last-container-mobile: #faf8f5;
+    --footer-mobile: #fff;
 }
 
 
@@ -101,14 +101,14 @@
 
     #first-section {
         height: 1007.47px;
-        background-color: var(--page-backround);
+        background-color: var(--page-background);
     }
     
     .page-wrapper {
         width: 100%;
         height: 100vh;
         display: table;
-        background-color: var(--page-backround);
+        background-color: var(--page-background);
     }
 
     /* HEADER */
@@ -117,7 +117,7 @@
         width: 100%;
         height: 58px;
         display: block;
-        background-color: var(--page-backround);
+        background-color: var(--page-background);
         position: fixed;
         top: 0;
         left: 0;
@@ -144,6 +144,10 @@
 
     .menu a{
         display: none;
+    }
+
+    .menu img {
+        cursor: pointer;
     }
 
     .menu-mobile {
@@ -449,7 +453,7 @@
 
     #features-section {
         display: block;
-        background-color: var(--page-backround-2);
+        background-color: var(--page-background-2);
         height: 2120px;
     }
 
@@ -532,9 +536,9 @@
 
 
     #last-section {
-        background-color: var(--page-backround-2);
+        background-color: var(--page-background-2);
         display: block;
-        height: 1187px;
+        height: 866px;
     }
 
     .last-cards {
@@ -599,10 +603,73 @@
     }
 
 
-
+    /* FOOTER */
 
     .footer {
         display: none;
+    }
+
+    .footer-mobile {
+        width: 100%;
+        height: 289px;
+        background-color: var(--footer-mobile);
+        display: block;
+        margin-top: 32px;
+    }
+
+    .footer-mobile img {
+        position: relative;
+        top: 40px;
+        margin: 0 auto;
+    }
+
+    .footer-content {
+        /* background-color: blue; COR PRA AJUDAR NA VISUALIZAÇÃO; */
+        width: 335px;
+        height: 129px;
+        position: relative;
+        top: 90px;
+        margin: 0 auto;
+    }
+
+    .footer-content img {
+        position: absolute;
+        top: 32px;
+        left: 107.5px;
+    }
+
+    .light-mode .social-icons-mobile{
+        display: none;
+    }
+    
+    .light-mode .social-icons-black-mobile{
+        display: block;
+    }
+    
+    .dark-mode .social-icons-mobile{
+        display: block;
+    }
+    
+    .dark-mode .social-icons-black-mobile{
+        display: none;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        display: block;
+        background-color: #a0aec0;
+    }
+
+    .copyright-text-mobile {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: var(--grey-copyright);
+        text-align: center;
+        position: absolute;
+        bottom: 0;
     }
 }
 
@@ -728,13 +795,6 @@
     }
 
     /* BODY */
-
-    .line {
-        width: 100%;
-        height: 2px;
-        display: block;
-        background-color: aqua;
-    }
 
     .container-body {
         width: 1280px;
@@ -1109,6 +1169,10 @@
 
     /* FOOTER */
 
+    .footer-mobile {
+        display: none;
+    }
+
     .footer {
         width: 100%;
         height: 128px;
@@ -1151,7 +1215,7 @@
 
     #first-section {
         height: 888px;
-        background-color: var(--page-backround);
+        background-color: var(--page-background);
     }
 
     #features-section {
@@ -1161,7 +1225,7 @@
     
     #last-section {
         height: 863px;
-        background-color: var(--page-backround-2);
+        background-color: var(--page-background-2);
         display: block;
     }
 }
