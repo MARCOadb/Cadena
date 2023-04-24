@@ -6,6 +6,8 @@
     -moz-osx-font-smoothing: grayscale; 
 }
 
+/* COLORS */
+
 :root {
     --page-background: #060809;
     --page-background-2: #060809;
@@ -97,6 +99,8 @@
 }
 
 @media screen and (min-width: 350px) {
+
+    /* MOBILE */
 
 
     #first-section {
@@ -209,6 +213,9 @@
     }
 
     body {
+
+        /*BOTAO TOGGLE LIGHT/DARK MODE*/
+
         background-color: #333;
         color: #fff;
       }
@@ -545,7 +552,6 @@
         display: none;
     }
 
-
     .last-container {
         width: 335px;
         height: 802px;
@@ -604,6 +610,7 @@
 
 
     /* FOOTER */
+
 
     .footer {
         display: none;
@@ -675,6 +682,13 @@
 
 @media screen and (min-width: 992px) {
 
+    /* DESKTOP */
+
+    #first-section {
+        height: 888px;
+        background-color: var(--page-background);
+    }
+
     /* HEADER */
 
     .topbar {
@@ -737,8 +751,6 @@
         display: none;
     }
 
-    /* .light-mode .menu-mobile-black */
-
     .menu-mobile {
         display: none;
     }
@@ -794,7 +806,7 @@
         right: 32px;
     }
 
-    /* BODY */
+    /* HOME */
 
     .container-body {
         width: 1280px;
@@ -1061,6 +1073,11 @@
 
     /* FEATURES SECTION */
 
+    #features-section {
+        height: 962px;
+        display: block;
+    }
+
 
     .features-main {
         width: 1280px;
@@ -1126,7 +1143,15 @@
         margin-left: 54.02px;
     }
 
+
     /* LAST SECTION */
+
+    #last-section {
+        height: 863px;
+        background-color: var(--page-background-2);
+        display: block;
+    }
+
 
     .last-container {
         width: 1280px;
@@ -1168,6 +1193,7 @@
 
 
     /* FOOTER */
+
 
     .footer-mobile {
         display: none;
@@ -1211,23 +1237,7 @@
 
     .footer-cadena-white {
         margin-left: -75px; 
-    }
-
-    #first-section {
-        height: 888px;
-        background-color: var(--page-background);
-    }
-
-    #features-section {
-        height: 962px;
-        display: block;
-    }
-    
-    #last-section {
-        height: 863px;
-        background-color: var(--page-background-2);
-        display: block;
-    }
+    } 
 }
 
 /* CLASSES UTILITÁRIAS */
@@ -1235,8 +1245,6 @@
 .full-height {
     height: 100vh;
 }
-
-/* BOTOES */
 
 .btn-sign-up {
     width: 93px;
@@ -1268,8 +1276,7 @@
 .btn-body-txt:hover {
     background-color: var(--default-purple);
     color: #fff;
-    transform: scale(1.03);
-    
+    transform: scale(1.03);    
 }
 
 .btn-body-txt p {
@@ -1299,15 +1306,6 @@
 .btn-last {
     width: 163.2px;
     height: 56px;
-    /* position: absolute;
-    bottom: 0;
-    left: 0;
-    border-radius: 28px;
-    display: block;
-    padding-top: 15.5px;
-    padding-left: 28px;
-    text-decoration: none;
-    transition: all .2s ease-in-out; */
 }
 
 .btn-last img:last-child {
@@ -1415,13 +1413,6 @@
     font-size: 17px;
     line-height: 24px;
     font-weight: 400;
-}
-
-.txt-big {
-    font-family: 'satoshi', sans-serif;
-    font-size: 40px;
-    line-height: 24px;
-    font-weight: 700;
 }
 
 .txt-feature-title {
